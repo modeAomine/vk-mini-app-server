@@ -8,19 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/api/health",
-      "dest": "/main.py"
-    },
-    {
-      "src": "/api/users/(.*)",
-      "dest": "/main.py"
-    },
-    {
-      "src": "/api/addresses/(.*)",
-      "dest": "/main.py"
-    },
-    {
-      "src": "/",
+      "src": "/(.*)",
       "dest": "/main.py"
     }
   ]
